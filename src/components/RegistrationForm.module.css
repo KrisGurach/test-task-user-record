@@ -1,0 +1,24 @@
+.registerContainer {
+    @apply flex flex-col items-center justify-center p-4 bg-gray-100 rounded-lg shadow-md;
+  }
+
+.registerTitle {
+    @apply text-2xl font-bold mb-4;
+  }
+  
+  .formContainer {
+    @apply flex flex-col justify-start  space-y-4;
+  }
+  
+  .inputField {
+    @apply border border-gray-300 rounded px-3 py-2 w-[700px];
+  }
+  
+  .errorMessage {
+    @apply text-red-500;
+  }
+  
+  .submitButton {
+    @apply bg-blue-500 text-white rounded px-4 py-2 hover:bg-blue-600 w-[725px];
+  }
+  

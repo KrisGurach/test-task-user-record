@@ -17,4 +17,4 @@
 4. **Запустите проект:**
    npm run dev
 5. **Откройте браузер и перейдите по адресу:**
-   http://localhost:3000
+   http://localhost:3000/register

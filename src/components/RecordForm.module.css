@@ -1,0 +1,34 @@
+  .recordForm {
+    @apply bg-white p-4 rounded shadow-md w-[43.3rem];
+  }
+  
+  .recordForm__field {
+    @apply mb-4;
+  }
+  
+  .recordForm__input,
+  .recordForm__textarea {
+    @apply p-2 border border-gray-300 rounded w-[42rem];
+  }
+  
+  .recordForm__input:focus,
+  .recordForm__textarea:focus {
+    @apply outline-none ring-2 ring-blue-500;
+  }
+  
+  .recordForm__submitButton {
+    @apply bg-blue-500 text-white p-2 rounded transition duration-200 w-[43rem];
+  }
+  
+  .recordForm__submitButton:hover {
+    @apply bg-blue-600;
+  }
+
+  .recordForm__cancelButton {
+    @apply bg-gray-200 text-gray-800 p-2 rounded transition duration-200 w-[43rem];
+  }
+  
+  .recordForm__cancelButton:hover {
+    @apply bg-gray-300;
+  }
+  
